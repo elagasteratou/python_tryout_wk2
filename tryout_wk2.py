@@ -12,4 +12,29 @@ elif choice == 3:
 elif choice > 2 or choice < 1:
     print("enter a number between 1 and", len(good_luck_msg))
 
+### JW EDIT 1 ###
+# while True:
+#     try:
+#         choice = int(input("Choose a number between 1-3 "))
+#         if choice == 1:
+#             print(good_luck_msg[0])
+#             break
+#         elif choice == 2:
+#             print(good_luck_msg[1])
+#             break
+#         elif choice == 3:
+#             print(good_luck_msg[2])
+#             break
+#     except:
+#         print("enter a number between 1 and", len(good_luck_msg))
 
+### JW EDIT 2 ###
+# while True:
+#     try:
+#         choice = int(input("Choose a number between 1-3 "))
+#         if choice == 1 or 2 or 3:
+#             break
+#     except:
+#         print("enter a number between 1 and", len(good_luck_msg))
+#
+# print(good_luck_msg[choice-1])
