@@ -10,6 +10,8 @@ adj_list = ["unlucky","scared","tired"]
 
 tryout_functions.give_advice(advice,adj_list)
 
+# good_luck_msg["Today is your lucky day!","Be brave! You got this.","Take it nice and easy today."]
+
 # choice = int(input("Choose a number between 1-3"))
 # if choice == 1:
 #     print(good_luck_msg[0])

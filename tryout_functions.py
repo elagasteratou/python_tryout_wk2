@@ -33,11 +33,13 @@ def give_advice(dictionary, adjectives):
 # Function asks Y/N question and moderates user input.
 def yes_no_q(question):
     while True:
-        try:
+        # try:
             choice = str(input(question + "Y/N: "))
             if choice in ["y", "n"]:
                 break
-        except:
-            print("Please enter \"y\" or \"n\".")
+            else:
+                print("Please enter \"y\" or \"n\".")
+        # except:
+        #     print("Please enter \"y\" or \"n\".")
 
     return choice
