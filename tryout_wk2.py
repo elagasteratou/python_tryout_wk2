@@ -10,7 +10,6 @@ adj_list = ["unlucky","scared","tired"]
 
 tryout_functions.give_advice(advice,adj_list)
 
-
 # MG before JW merges all this to one cocktail
 good_luck_msg = ["Today is your lucky day", "Be brave! you got this", "Take it nice and easy"]
 
