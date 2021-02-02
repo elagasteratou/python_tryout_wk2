@@ -10,7 +10,9 @@ adj_list = ["unlucky","scared","tired"]
 
 tryout_functions.give_advice(advice,adj_list)
 
-# good_luck_msg["Today is your lucky day!","Be brave! You got this.","Take it nice and easy today."]
+
+# MG before JW merges all this to one cocktail
+good_luck_msg = ["Today is your lucky day", "Be brave! you got this", "Take it nice and easy"]
 
 # choice = int(input("Choose a number between 1-3"))
 # if choice == 1:
