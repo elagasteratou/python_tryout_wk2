@@ -1,4 +1,4 @@
-
+# MG before JW merges all this to one cocktail
 good_luck_msg = ["Today is your lucky day", "Be brave! you got this", "Take it nice and easy"]
 
 # choice = int(input("Choose a number between 1-3"))
